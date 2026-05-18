@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #fff7fb;
+  --foreground: #2d1b3d;
+  --primary: #d946ef;
+  --secondary: #fbcfe8;
+  --accent: #bae6fd;
+  --card: rgba(255,255,255,0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: #f3d4ea;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #fdf2f8 0%,
+    #fce7f3 50%,
+    #e0f2fe 100%
+  );
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.glass {
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 24px;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    #d946ef,
+    #f97316,
+    #0ea5e9
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.shadow-soft {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.glow-orb {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.4;
+}
+
+.cursor-blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
