@@ -1,0 +1,12 @@
+.hero-btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: #ec4899;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #db2777;
+}
