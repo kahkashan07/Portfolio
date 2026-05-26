@@ -28,14 +28,14 @@ export function Contact() {
 
         <a
           href="https://www.instagram.com/kahkashan_.47/"
-          className="bg-BE27F5 text-white px-6 py-3 rounded-xl"
+          className="bg-#BE27F5 text-white px-6 py-3 rounded-xl"
         >
           Instagram
         </a>
 
         <a
           href="kahkashanaslam495@gmail.com"
-          className="bg-E6DE85 text-white px-6 py-3 rounded-xl"
+          className="bg-#E6DE85 text-white px-6 py-3 rounded-xl"
         >
           Email
         </a>
