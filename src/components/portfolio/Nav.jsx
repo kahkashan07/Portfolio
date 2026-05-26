@@ -4,7 +4,7 @@ export function Nav() {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
         
         <h1 className="text-2xl font-bold text-pink-500">
-          Kahkashan
+          Kahkashan Aslam
         </h1>
 
         <ul className="flex gap-6 font-medium">

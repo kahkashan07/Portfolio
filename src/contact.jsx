@@ -68,32 +68,26 @@ export function Contact() {
             {[
               {
                 Icon: Mail,
-                label: "kahkashan@example.com",
-                href: "mailto:kahkashan@example.com",
+                label: "kahkashanaslam495@gmai.com",
+                href: "mailto:kahkashanaslam@495@gmail.com",
               },
 
               {
                 Icon: Linkedin,
                 label: "LinkedIn",
-                href: "https://linkedin.com",
+                href: "https://www.linkedin.com/in/kahkashan-aslam-32119a321/",
               },
 
               {
                 Icon: Github,
                 label: "GitHub",
-                href: "https://github.com",
+                href: "https://github.com/kahkashan07",
               },
 
               {
                 Icon: Instagram,
                 label: "Instagram",
                 href: "https://instagram.com",
-              },
-
-              {
-                Icon: MapPin,
-                label: "India",
-                href: "#",
               },
 
             ].map((item) => (
@@ -157,7 +151,7 @@ export function Contact() {
             <input
               required
               type="email"
-              placeholder="you@example.com"
+              placeholder="kahkashanaslam495@gmail.com"
               className="w-full px-4 py-3 rounded-xl border outline-none"
             />
 

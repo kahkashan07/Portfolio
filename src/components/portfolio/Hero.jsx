@@ -8,12 +8,12 @@ export function Hero() {
 
         <h1 className="text-6xl font-bold leading-tight">
           Hi, I'm
-          <span className="text-pink-500"> Kahkashan</span>
+          <span className="text-pink-500"> Kahkashan Aslam</span>
         </h1>
 
         <p className="text-xl text-gray-700 mt-4">
           BTech CSE Student <br />
-          AI & ML Enthusiast 🚀
+          AI & ML Enthusiast
         </p>
 
         <div className="mt-8 flex justify-center gap-4">

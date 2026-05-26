@@ -7,20 +7,20 @@ export function Contact() {
       </h2>
 
       <p className="text-lg text-gray-700 mb-8">
-        Let's connect and build something amazing 🚀
+        Let's connect and build something amazing
       </p>
 
       <div className="flex justify-center gap-6">
         
         <a
-          href="https://github.com"
+          href="https://github.com/kahkashan07"
           className="bg-black text-white px-6 py-3 rounded-xl"
         >
           GitHub
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/kahkashan-aslam-32119a321/"
           className="bg-blue-600 text-white px-6 py-3 rounded-xl"
         >
           LinkedIn

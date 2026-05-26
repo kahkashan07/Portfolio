@@ -4,7 +4,6 @@ export function Skills() {
     "HTML",
     "CSS",
     "JavaScript",
-    "React",
     "Python",
     "Machine Learning",
   ];
