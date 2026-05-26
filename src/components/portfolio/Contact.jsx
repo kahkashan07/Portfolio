@@ -35,7 +35,7 @@ export function Contact() {
 
         <a
           href="mailto:kahkashanaslam495@gmail.com"
-          className="[bg-#E6DE85] text-white px-6 py-3 rounded-xl"
+          className="bg-[#E6DE85] text-white px-6 py-3 rounded-xl"
         >
           Email
         </a>
